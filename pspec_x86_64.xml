@@ -1,0 +1,36 @@
+<PISI>
+    <Source>
+        <Name>lesspipe</Name>
+        <Homepage>http://www-zeuthen.desy.de/~friebel/unix/lesspipe.html</Homepage>
+        <Packager>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@stroblindustries.com</Email>
+        </Packager>
+        <License>GPL-2.0</License>
+        <PartOf>system.utils</PartOf>
+        <Summary xml:lang="en">Input filter and preprocessor for the pager &quot;less&quot;</Summary>
+        <Description xml:lang="en">lesspipe.sh is an input filter for &quot;less&quot; which allows the viewing of binary content, compressed files, and archives.
+</Description>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://solus-project.com/sources/README.Solus</Archive>
+    </Source>
+    <Package>
+        <Name>lesspipe</Name>
+        <Summary xml:lang="en">Input filter and preprocessor for the pager &quot;less&quot;</Summary>
+        <Description xml:lang="en">lesspipe.sh is an input filter for &quot;less&quot; which allows the viewing of binary content, compressed files, and archives.
+</Description>
+        <PartOf>system.utils</PartOf>
+        <Files>
+            <Path fileType="executable">/usr/bin</Path>
+            <Path fileType="man">/usr/share/man</Path>
+        </Files>
+    </Package>
+    <History>
+        <Update release="2">
+            <Date>2018-01-26</Date>
+            <Version>1.83</Version>
+            <Comment>Packaging update</Comment>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@stroblindustries.com</Email>
+        </Update>
+    </History>
+</PISI>
